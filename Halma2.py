@@ -114,7 +114,7 @@ class View(Canvas):
         self.controller.send_pawn(pawn)
     
     def send_square(self, square):
-        
+        pass
             
 class Controller:
     def __init__(self, view, game_board):
